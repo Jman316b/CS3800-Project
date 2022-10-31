@@ -1,0 +1,39 @@
+TCP Tic-Tac-Toe Game
+
+How to join a server:
+1) Run the TicTacToeServer.java file in your preferred IDE.
+
+2) Once it is running, run the TicTacToeClient.java file, with the host IP address as a command line argument, in your 
+preferred IDE (note: this must be done in a different project than the TicTacToeServer.java file). On
+
+3) Once the Client code is running, you will be connected to the server, and automatically assigned X or O, depending on 
+if you are the first or second person to join the room. In addition, a new window will appear, showing the current board
+state. If you are the first person, it will state that it is waiting for an opponent to connect.
+
+4) Once another client joins, the game will begin, starting with the player assigned X.
+
+How to play:
+1) Left-click on an unmarked space to place your letter.
+
+2) If a space is marked, you will be prompted that the cell is already occupied.
+
+3) If you left-click while it is not your turn, it will prompt you that it is not your turn.
+
+4) When a move is valid, you will get a confirmation, and play will pass to your opponent (note: your opponent will 
+also receive a prompt stating it is their turn).
+
+5) Continue to play until a winner is determined or a scratched game occurs.
+
+Disconnecting from a server:
+Method 1: In-progress
+1) After connecting to the server, click the X in the top right corner to close your instance of the game.
+
+2) If you are connected to another player and do this, you will be prompted that your opponent has disconnected. Upon
+clicking the confirmation, you will then be disconnected from the server.
+
+
+Method 2: Completing the game
+1) If a player matches their letter in a row, column or diagonal, the winning player will be given a prompt stating they have
+won (the opposing player will recieve a message that they lost).
+
+2) Upon clicking the confirmation, the player will be disconnected from the server.
