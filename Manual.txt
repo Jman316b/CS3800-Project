@@ -4,7 +4,7 @@ How to join a server:
 1) Run the TicTacToeServer.java file in your preferred IDE.
 
 2) Once it is running, run the TicTacToeClient.java file, with the host IP address as a command line argument, in your 
-preferred IDE (note: this must be done in a different project than the TicTacToeServer.java file). On
+preferred IDE (note: this must be done in a different project than the TicTacToeServer.java file).
 
 3) Once the Client code is running, you will be connected to the server, and automatically assigned X or O, depending on 
 if you are the first or second person to join the room. In addition, a new window will appear, showing the current board
